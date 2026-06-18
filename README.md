@@ -1,5 +1,7 @@
 # Real-Time SRE Observability and Incident Response Platform
 
+![SRE Project CI]:- (https://github.com/SatishShinde-SRE/realtime-sre-observability-platform/actions/workflows/ci.yml/badge.svg)
+
 ## Overview
 
 This project demonstrates a production-like Site Reliability Engineering workflow using a containerized Order Service and a complete observability stack.
@@ -194,4 +196,11 @@ Realtime-Sre-Project/
 ├── docker-compose.yml
 └── README.md
 
+
+## Documentation
+
+[Architecture](docs/architecture.md):-	       System design and observability flow
+[SLO and SLI](docs/slo-sli.md):-	           Reliability targets and indicators
+[Incident Runbook](docs/incident-runbook.md):- Investigation and recovery steps
+[Postmortem](docs/postmortem.md):-	           Incident analysis and action items
 
